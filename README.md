@@ -1,28 +1,66 @@
-Handwritten Digit Recognition using CNN and TensorFlow
+Handwritten Digit Recognition using CNN
 
-Overview
-This project implements a Convolutional Neural Network (CNN) to recognize handwritten digits (0–9) using the MNIST dataset. The model learns image features through convolution and pooling layers and predicts the corresponding digit with high accuracy.
+A Deep Learning project that recognizes handwritten digits (0–9) using a Convolutional Neural Network (CNN) built with **PyTorch** and trained on the **MNIST** dataset.
+ 📌 Overview
 
-Features
-- Image classification of handwritten digits (0–9)
-- Built using TensorFlow and Keras
-- Uses CNN for automatic feature extraction
-- Trained and evaluated on the MNIST dataset
+This project implements a CNN to classify handwritten digit images from the MNIST dataset. The model learns meaningful image features through convolutional layers and predicts the correct digit with high accuracy.
 
-Technologies Used
+ Features
+
+- Handwritten digit classification (0–9)
+- CNN architecture implemented using PyTorch
+- Training and testing on the MNIST dataset
+- Model performance visualization using Matplotlib
+- Easy-to-understand Jupyter Notebook implementation
+
+ 🛠️ Tech Stack
+
 - Python
-- TensorFlow
-- Keras
-- NumPy
+- PyTorch
+- Torchvision
 - Matplotlib
+- Google Colab
 
-Dataset
-MNIST Handwritten Digits Dataset containing grayscale images of digits from 0 to 9.
+ 📂 Project Structure
 
-Workflow
-Data Preprocessing → CNN Model Building → Training → Evaluation → Prediction
+```
+HandwrittenDigit_Recognition/
+│── Handwritten_digit_recognition.ipynb
+│── README.md
+│── requirements.txt
+│── .gitignore
+```
 
-Future Improvements
-- Deploy as a web application using Streamlit or Flask
-- Allow users to upload and predict custom handwritten digits
-- Improve performance with data augmentation
+ 📊 Dataset
+
+- Dataset: MNIST
+- Training Images: 60,000
+- Testing Images: 10,000
+- Classes:10 (Digits 0–9)
+
+
+📈 Results
+
+The CNN model successfully learns handwritten digit patterns from the MNIST dataset and achieves high classification accuracy on the test dataset.
+
+📚 Skills Demonstrated
+
+- Deep Learning
+- Convolutional Neural Networks (CNN)
+- Computer Vision
+- Image Classification
+- PyTorch
+- Model Training & Evaluation
+
+🔮 Future Improvements
+
+- Improve model accuracy through hyperparameter tuning
+- Add a web interface using Streamlit
+- Predict digits from user-uploaded images
+- Experiment with deeper CNN architectures
+
+
+
+**Sharanya Rai K**
+
+Artificial Intelligence & Machine Learning Engineering Student

@@ -154,6 +154,8 @@ Through this project, I gained practical experience in:
 ### **Sharanya Rai K**
 
 🎓 Artificial Intelligence & Machine Learning Engineering Student
+
+
 💡 Passionate about AI, Deep Learning & Computer Vision
 
 ---
